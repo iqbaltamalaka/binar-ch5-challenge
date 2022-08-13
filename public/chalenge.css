@@ -1,5 +1,5 @@
 .section-1 {
-  background: url('./assets/main-bg.JPG');
+  background: url(./assets/main-bg.jpg);
   background-position: fixed;
   background-size: cover;
 }
