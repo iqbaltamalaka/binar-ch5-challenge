@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #9c835f;
+}
+
+.icon a {
+  text-decoration: none;
+  list-style: none;
+  color: #724c21;
+}
+
+.icon {
+  position: absolute;
+  width: 55px;
+  height: 87px;
+  left: 37px;
+  top: 12px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #724c21;
+}
+
+.logo {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 119px;
+  top: 27px;
+  width: 7.5%;
+  height: 7%;
+  border-radius: 25%;
+}
+
+h3 {
+  position: absolute;
+  width: 510px;
+  height: 62px;
+  left: 218px;
+  top: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #f9b23d;
+}
+
+.txt-player {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  left: 296px;
+  top: 162px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.com {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  left: 865px;
+  top: 162px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.rock-player img {
+  position: absolute;
+  width: 128px;
+  height: 92px;
+  left: 382px;
+  top: 267px;
+  background: url(batu);
+}
+.rock-player img:hover {
+  animation: spin-rps 3s infinite;
+}
+.rock-comp img {
+  position: absolute;
+  width: 128px;
+  height: 92px;
+  left: 951px;
+  top: 267px;
+  background: url(batu);
+}
+
+.papper-player img {
+  position: absolute;
+  width: 115px;
+  height: 150px;
+  left: 388px;
+  top: 440px;
+  background: url(kertas.png);
+}
+.papper-player img:hover {
+  animation: spin-rps 3s infinite;
+}
+
+.papper-comp img {
+  position: absolute;
+  width: 115px;
+  height: 150px;
+  left: 970px;
+  top: 440px;
+  background: url(kertas.png);
+}
+
+.scissors-player img {
+  position: absolute;
+  width: 134px;
+  height: 160px;
+  left: 369px;
+  top: 671px;
+  background: url(gunting.png);
+}
+.scissors-player img:hover {
+  animation: spin-rps 3s infinite;
+}
+
+.scissors-comp img {
+  position: absolute;
+  width: 134px;
+  height: 160px;
+  left: 951px;
+  top: 671px;
+  background: url(gunting.png);
+}
+
+.text-vs {
+  position: absolute;
+  width: 296px;
+  height: 186px;
+  left: 589px;
+  top: 419px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 196px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #bd0000;
+  animation: color-change 2s infinite;
+}
+
+.text-vs-draw {
+  background-color: #e14c4c;
+  position: absolute;
+  width: 296px;
+  height: 186px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transform: rotate(-20deg);
+}
+
+.text-vs-win {
+  background-color: #4c9654;
+  width: 296px;
+  height: 180px;
+  left: 589px;
+  top: 419px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 70px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transform: rotate(-20deg);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-vs-lose {
+  background-color: #c6d936;
+  position: absolute;
+  width: 296px;
+  height: 186px;
+  left: 589px;
+  top: 419px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transform: rotate(-20deg);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.refresh img {
+  position: absolute;
+  width: 77px;
+  height: 71px;
+  left: 681px;
+  top: 843px;
+  background: url(refresh);
+  animation: spin 3s linear infinite;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.comp-pilih {
+  background-color: lightblue;
+}
+
+.click-player-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 20%;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.default-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 20%;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes spin-rps {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(30deg);
+  }
+
+  40% {
+    transform: rotate(-30deg);
+  }
+
+  60% {
+    transform: rotate(30deg);
+  }
+
+  80% {
+    transform: rotate(-30deg);
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #bd0000;
+  }
+
+  50% {
+    color: #e14c4c;
+  }
+
+  100% {
+    color: #bd0000;
+  }
+}
