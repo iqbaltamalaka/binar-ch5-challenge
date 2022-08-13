@@ -1,39 +1,5 @@
-.scroll-down {
-  position: absolute;
-  bottom: 1rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  animation-name: bounce-2;
-  animation-timing-function: ease;
-  transform-origin: bottom;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-.scroll-down-text {
-  font-size: 1em;
-  font-weight: normal;
-  color: white;
-  text-transform: capitalize;
-  text-align: center;
-}
-.scroll-down-icon {
-  width: 70%;
-}
-@keyframes bounce-2 {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-1.5rem);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 .section-1 {
-  background: url(./assets/main-bg.JPG);
+  background: url('./assets/main-bg.JPG');
   background-position: fixed;
   background-size: cover;
 }
@@ -123,6 +89,29 @@ button:hover {
   cursor: pointer;
 }
 
+.scroll-down {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+  transform-origin: bottom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.scroll-down-text {
+  font-size: 1em;
+  font-weight: normal;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
+.scroll-down-icon {
+  width: 70%;
+}
+
 .scroll-down,
 .scroll-text {
   position: relative;
@@ -158,7 +147,6 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
-
 
 .second-section-carousel {
   width: 70%;
@@ -255,5 +243,17 @@ button:hover {
   }
   .main-section-button {
     width: 20%;
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
